@@ -11,4 +11,4 @@ const articlesBlog=new mongoose.Schema({
     }
 })
 
-module.exports=mongoose.model('article', articlesBlog )
+module.exports=mongoose.model('Article', articlesBlog )
