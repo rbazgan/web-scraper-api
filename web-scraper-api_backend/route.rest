@@ -1,0 +1,23 @@
+GET http://localhost:3000/web-scrapers 
+
+###
+GET http://localhost:3000/web-scrapers/15
+
+###
+POST http://localhost:3000/web-scrapers
+Content-Type: application/json 
+
+{ 
+    "title":"The Joys of Gardening",
+    "short_description":"Explore the enriching world of gardening and
+discover its positive impact on mood and well-being."
+}, 
+
+{
+"title": "The Challenges of Urban Living",
+"short_description": "A candid look at the challenges of urban
+living, with insights into coping strategies."
+}
+
+
+
