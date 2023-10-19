@@ -1,23 +1,23 @@
-GET http://localhost:3000/web-scrapers 
+GET http://localhost:5000/web-scrapers 
 
 ###
-GET http://localhost:3000/web-scrapers/15
+GET http://localhost:5000/web-scrapers/TheJoysofGardening
 
 ###
-POST http://localhost:3000/web-scrapers
-Content-Type: "application/json" 
+POST http://localhost:5000/web-scrapers
+Content-Type: "application/json"
 
 { 
-    "title":"The Joys of Gardening",
-    "short_description":"Explore the enriching world of gardening and
-discover its positive impact on mood and well-being."
+    "title": "The Joys of Gardening",
+"short_description": "Explore the enriching world of gardening and
+discover its positive impact on mood and well-being.",
+"image":"https://wsa-test.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fga
+rden.8d6b6c5f.webp&w=3840&q=75",
+"href": "https://wsa-test.vercel.app/blog/the-joys-of-gardening",
+
 }, 
 
-{
-"title": "The Challenges of Urban Living",
-"short_description": "A candid look at the challenges of urban
-living, with insights into coping strategies."
-}, 
+
 
 
 

@@ -2,6 +2,7 @@ const express=require('express')
 const router=express.Router()
 const Article=require('../schemas/schema')
 
+
 //Getting all articles
 router.get('/', async (req,res) => {
     try {
@@ -16,7 +17,7 @@ router.get('/', async (req,res) => {
 
 //Getting One article 
 router.get('/:id', (req,res) => {
-res.send(req.param.id)
+res.send(req.param.id) 
 })
 //Creating one article
 router.post('/', async (req,res) => {
@@ -26,7 +27,7 @@ router.post('/', async (req,res) => {
   })
   try {
     const newArticle=await article.save()
-    res.status(201).json(newArticle)
+    return res.status(201).json(newArticle)
   } catch (err) {
     res.status(400).json({message:err.message})
   }
