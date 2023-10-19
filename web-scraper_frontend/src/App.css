@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding: 0;
+    border: none; 
+    box-sizing: border-box;
+}
+
+.title {
+  margin-top:150px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  margin-top:20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle > p {
+  color:darkgrey;
+  font-size:18px;
+}
+
+.img {
+  width:400px;
+  height:260px;
+  border-radius: 15px;
+  cursor: pointer;
+}
